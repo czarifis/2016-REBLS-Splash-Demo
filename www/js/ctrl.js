@@ -25,7 +25,7 @@ angular.module('starter', []).controller('myCtrl', function($scope) {
     'Alienware 15 (with Graphics Amplifier)', 'Asus Transformer Book T100HA', 'Asus Chromebook Flip C100'
   ];
 
-
+ 
   var products =[];
   for (var i = 0; i< product_names.length; i++) {
     products.push(
